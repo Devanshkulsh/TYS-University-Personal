@@ -20,6 +20,7 @@ import {
 } from './lib/seo';
 import FactsAndFiguresSection from "./components/home/FactsAndFiguresSection";
 import FutureReadySection from "./components/home/FutureReadySection";
+import AwarenessInitiative from "./components/home/AwarenessInitiative";
 
 const pageTitle = "Best Private University in UP";
 const pageDescription =
@@ -127,6 +128,7 @@ export default function Home() {
       <JsonLd id="home-json-ld" data={homeSchema} />
       <BuildingPopup />
       <HeroSection/>
+      <AwarenessInitiative/>
       <AboutUniversity/>
       <FutureReadySection/>
       <CtaBanner 
