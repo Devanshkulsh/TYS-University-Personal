@@ -72,5 +72,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       images: [absoluteUrl("/logo.png")],
     },
+    {
+      url: `${siteUrl}/privacy-policy`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+      images: [absoluteUrl("/logo.png")],
+    },
+    {
+      url: `${siteUrl}/legal-notice`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+      images: [absoluteUrl("/logo.png")],
+    },
+    {
+      url: `${siteUrl}/terms-of-service`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+      images: [absoluteUrl("/logo.png")],
+    },
   ];
 }

@@ -145,6 +145,7 @@ const legacyTimelineItems = [...legacyInstitutions, latestDevelopment];
 
 const overviewPoints = [
   "Established from a 2003 legacy to expand quality education across Fatehpur, Khaga, Lucknow, Kaushambi, Bindki, Hathgam, and Saura.",
+  "Run by Anglo Sanskrit College, Fatehpur, carrying forward the sponsoring society's commitment to accessible higher education and regional academic development.",
   "Offers undergraduate and postgraduate programs across arts, science, and commerce.",
   "Built on an 8,000 sq.m. campus with practical, student-focused infrastructure.",
 ];

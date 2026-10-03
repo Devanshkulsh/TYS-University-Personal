@@ -58,6 +58,12 @@ const studentLinks = [
   { label: "Placement Cell", href: "#placements" },
 ];
 
+const legalLinks = [
+  { label: "Privacy policy", href: "/privacy-policy" },
+  { label: "Legal notice", href: "/legal-notice" },
+  { label: "Terms of service", href: "/terms-of-service" },
+];
+
 const featuredUpdates = [
   {
     title: "Admissions open for the 2026 academic session.",
@@ -295,15 +301,15 @@ export default function Footer() {
           </p>
 
           <div className="flex flex-wrap gap-5">
-            <a href="#privacy" className="transition hover:text-white">
-              Privacy policy
-            </a>
-            <a href="#legal" className="transition hover:text-white">
-              Legal notice
-            </a>
-            <a href="#terms" className="transition hover:text-white">
-              Terms of service
-            </a>
+            {legalLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="transition hover:text-white"
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
         </div>
       </div>

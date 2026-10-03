@@ -159,7 +159,7 @@ export default function AboutPage() {
 
                 <span className="inline-flex items-center gap-2 rounded-full border border-[#6B1E23]/15 bg-white px-5 py-3 text-sm font-semibold text-[#0B1B3F]">
                   <Sparkles className="size-4 text-[#F2B90D]" />
-                  Legacy Since 2005
+                  Legacy Since 2003
                 </span>
               </div>
             </div>
@@ -300,6 +300,22 @@ export default function AboutPage() {
                       practice, and professional growth.
                     </p>
                   </div>
+                </div>
+
+                <div className="rounded-[2rem] border border-[#6B1E23]/10 bg-[#F9F6EF] p-7 md:p-8">
+                  <Building2 className="size-8 text-[#6B1E23]" />
+
+                  <p className="mt-5 text-xs font-bold uppercase tracking-[0.24em] text-[#6B1E23]">
+                    Sponsoring Society
+                  </p>
+
+                  <h3 className="mt-3 text-2xl font-black leading-tight text-[#171717]">
+                    {aboutPageContent.sponsoringSociety.name}
+                  </h3>
+
+                  <p className="mt-4 text-sm leading-7 text-gray-600">
+                    {aboutPageContent.sponsoringSociety.description}
+                  </p>
                 </div>
 
                 <div className="rounded-[2rem] bg-[#0B1B3F] p-7 text-white md:p-8">
