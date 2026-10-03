@@ -159,7 +159,7 @@ export default function AboutPage() {
 
                 <span className="inline-flex items-center gap-2 rounded-full border border-[#6B1E23]/15 bg-white px-5 py-3 text-sm font-semibold text-[#0B1B3F]">
                   <Sparkles className="size-4 text-[#F2B90D]" />
-                  Legacy Since 2003
+                  Legacy Since 2005
                 </span>
               </div>
             </div>

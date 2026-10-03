@@ -55,8 +55,9 @@ export default function HeroSection() {
             </h1>
 
             <p className="mb-8 max-w-130 text-sm leading-relaxed text-white/85 sm:text-lg md:mb-10">
-              TYS University is focused on innovation, sustainability, and
-              academic excellence with world-class infrastructure.
+              TYS University, the abbreviated name of Thakur Yugraj Singh
+              University, is focused on innovation, sustainability, and academic
+              excellence with world-class infrastructure.
             </p>
 
             <button

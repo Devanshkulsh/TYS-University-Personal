@@ -3,7 +3,7 @@ import type { LegalSection } from "@/app/components/legal/LegalPage";
 export const legalLastUpdated = "October 3, 2026";
 
 export const verifiedInstitutionalDetails = {
-  institutionName: "Thakur Yugraj Singh University / TYS University",
+  institutionName: "Thakur Yugraj Singh University (TYS University)",
   website: "https://tysuniversity.com",
   email: "admissions@tysuniversity.edu.in",
   tollFree: "1800 890 1705",
@@ -24,7 +24,7 @@ export const privacyPolicySections: LegalSection[] = [
     id: "introduction",
     title: "Introduction",
     body: [
-      "This Privacy Policy explains how Thakur Yugraj Singh University / TYS University, Fatehpur, Uttar Pradesh handles personal information collected through its official website, https://tysuniversity.com.",
+      "This Privacy Policy explains how Thakur Yugraj Singh University, also referred to as TYS University, Fatehpur, Uttar Pradesh handles personal information collected through its official website, https://tysuniversity.com.",
       "The policy is intended for website visitors, prospective students, applicants, recruitment candidates, parents or guardians, and other users who interact with the University's online services.",
       "The exact registered legal name, governing Act, and designated privacy or grievance contacts are [UNIVERSITY TO CONFIRM].",
     ],
@@ -162,7 +162,7 @@ export const legalNoticeSections: LegalSection[] = [
     id: "ownership",
     title: "Website Ownership",
     body: [
-      "This website, https://tysuniversity.com, is presented as the official public website of Thakur Yugraj Singh University / TYS University, Fatehpur, Uttar Pradesh.",
+      "This website, https://tysuniversity.com, is presented as the official public website of Thakur Yugraj Singh University, also referred to as TYS University, Fatehpur, Uttar Pradesh.",
       "The exact registered legal name, establishment details, governing Act or Ordinance, sponsoring body, and registered office are [UNIVERSITY TO CONFIRM].",
     ],
   },
@@ -170,7 +170,7 @@ export const legalNoticeSections: LegalSection[] = [
     id: "institutional-information",
     title: "Institutional Information",
     bullets: [
-      "University name used on the website: Thakur Yugraj Singh University / TYS University.",
+      "University name used on the website: Thakur Yugraj Singh University. TYS University is the abbreviated name used for the same University.",
       "Campus address published on the website: Shanti Nagar, Fatehpur, Uttar Pradesh, India 212601.",
       "Official website: https://tysuniversity.com.",
       "Published email: admissions@tysuniversity.edu.in.",

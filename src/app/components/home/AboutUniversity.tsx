@@ -144,10 +144,9 @@ const latestDevelopment = {
 const legacyTimelineItems = [...legacyInstitutions, latestDevelopment];
 
 const overviewPoints = [
-  "Established from a 2003 legacy to expand quality education across Fatehpur, Khaga, Lucknow, Kaushambi, Bindki, Hathgam, and Saura.",
   "Run by Anglo Sanskrit College, Fatehpur, carrying forward the sponsoring society's commitment to accessible higher education and regional academic development.",
   "Offers undergraduate and postgraduate programs across arts, science, and commerce.",
-  "Built on an 8,000 sq.m. campus with practical, student-focused infrastructure.",
+  "Built on an 20.45 acres campus with practical, student-focused infrastructure.",
 ];
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -346,7 +345,7 @@ export default function AboutUniversity() {
             <div className="absolute inset-0 bg-linear-to-t from-[#0A0905]/90 via-[#0A0905]/20 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-7 md:p-9">
               <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#D4A96A]">
-                Legacy since 2003
+                Legacy since 2005
               </p>
               <h2 className="font-display mt-3 text-3xl font-black leading-tight text-white md:text-4xl">
                 A growing academic ecosystem in Fatehpur
